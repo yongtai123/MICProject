@@ -1,0 +1,14 @@
+{
+  "id": "DACodeGenerator",
+  "name": "DACodeGenerator",
+  "version": "0.1.0",
+  "description": "Generates Matlab Codes for Diffusion Algorithm",
+  "icon": {
+    "class": "glyphicon glyphicon-cog",
+    "src": ""
+  },
+  "disableServerSideExecution": false,
+  "disableBrowserSideExecution": false,
+  "writeAccessRequired": false,
+  "configStructure": []
+}

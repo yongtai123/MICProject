@@ -1,0 +1,29 @@
+{
+  "id": "SimulateMatlab",
+  "name": "SimulateMatlab",
+  "version": "0.1.0",
+  "description": "Simulates the Diffusion Algorithm and stores the result in the model",
+  "icon": {
+    "class": "glyphicon glyphicon-cog",
+    "src": ""
+  },
+  "disableServerSideExecution": false,
+  "disableBrowserSideExecution": true,
+  "writeAccessRequired": true, 
+  "configStructure": [
+ 	{
+		"name": "stopTime",
+		"description": "Stop time of simulation",
+		"readOnly": false
+	} 
+  ],
+  "dependencies":[
+	  {
+		  "id": "DACodeGenerator",
+		  "propagateConfig": true
+	  
+	  }
+  
+  
+  ]
+}
